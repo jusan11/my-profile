@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap')
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style:none;
+	font-family:'Gideon Roman', cursive;
+}
+
+body{
+	background: #DFF6FF;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1000px;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(100, 90, 150, 0.3);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .wrapper {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .wrapper {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .wrapper {
+    width: 300px;
+  }
+}
+
+.wrapper .left{
+	width: 25%;
+	background: linear-gradient(to right, #3A98D6, #5130B3);
+	padding: 60px 25px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper .left img {
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+
+.wrapper .left h4{
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.wrapper .left p{
+	font-size: 16px;
+}
+
+.wrapper .right{ 
+    width: 65%;
+	background: #fff;
+	padding: 80px 60px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+	
+.wrapper .right .interests{
+	margin-bottom: 15px;
+}
+
+.wrapper .right .interests h2{
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #e0e0e0;
+	color: #6E85B2;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.wrapper .right .interests h3{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #6867AC;
+	font-style: italic;
+	}
+	
+
+.wrapper .right .interests_data{
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper .right .interests_data .data{
+	width: 45%;
+}
+
+.wrapper .right .interests_data .data h4{
+	color: #353c4e;
+	margin-bottom: 5px;
+}
+
+.wrapper .right .interests_data .data p{
+	font-size: 15px;
+	margin-bottom: 10px;
+	color: #4D4D4D;
+}
+
+.wrapper .interests p{
+    font-size: 15px;
+	margin-bottom: 10px;
+	color: #4D4D4D;	
+}
+
+.wrapper .left .info h3{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #EEEBEB;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+} 
+
+.wrapper .left h1{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	color: #EEEBEB;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+a {
+  color: #DFF6FF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #B667F1;
+  text-decoration: none;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+.wrapper .right .interests p{
+	margin-bottom: 55px;
+}
